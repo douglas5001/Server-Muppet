@@ -821,6 +821,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2023-07-01 15:56:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2023-07-01 15:50:46 +0000"
@@ -878,6 +884,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2023-07-01 15:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-07-01 15:56:53 +0000"
     },
     "done": true
   },
