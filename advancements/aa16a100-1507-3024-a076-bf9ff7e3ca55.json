@@ -12,6 +12,7 @@
       "minecraft:eroded_badlands": "2023-07-02 17:59:34 +0000",
       "minecraft:frozen_river": "2023-07-02 00:47:22 +0000",
       "minecraft:cherry_grove": "2023-07-02 02:51:02 +0000",
+      "minecraft:birch_forest": "2023-07-03 00:21:11 +0000",
       "minecraft:wooded_badlands": "2023-07-02 18:00:59 +0000",
       "minecraft:badlands": "2023-07-02 17:59:45 +0000",
       "minecraft:beach": "2023-07-02 17:46:28 +0000",
@@ -20,6 +21,7 @@
       "minecraft:stony_shore": "2023-06-30 23:12:55 +0000",
       "minecraft:snowy_plains": "2023-07-02 00:51:03 +0000",
       "minecraft:snowy_taiga": "2023-07-01 19:43:43 +0000",
+      "minecraft:dripstone_caves": "2023-07-03 00:20:56 +0000",
       "minecraft:grove": "2023-07-01 01:29:40 +0000",
       "minecraft:jagged_peaks": "2023-07-01 01:30:54 +0000",
       "minecraft:cold_ocean": "2023-07-02 17:46:58 +0000",
@@ -344,9 +346,11 @@
       "minecraft:blaze": "2023-07-02 23:00:58 +0000",
       "minecraft:skeleton": "2023-06-30 23:25:25 +0000",
       "minecraft:ghast": "2023-07-02 22:54:20 +0000",
+      "minecraft:hoglin": "2023-07-03 01:45:31 +0000",
       "minecraft:spider": "2023-07-02 02:30:11 +0000",
       "minecraft:creeper": "2023-06-30 23:28:58 +0000",
       "minecraft:wither_skeleton": "2023-07-02 22:52:23 +0000",
+      "minecraft:cave_spider": "2023-07-03 00:36:57 +0000",
       "minecraft:piglin": "2023-07-02 23:42:07 +0000",
       "minecraft:enderman": "2023-07-02 17:02:26 +0000",
       "minecraft:zombie": "2023-06-30 23:24:39 +0000",
@@ -1810,7 +1814,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2023-07-02 14:00:09 +0000",
       "minecraft:nether_wastes": "2023-07-02 00:50:40 +0000",
-      "minecraft:soul_sand_valley": "2023-07-02 00:50:14 +0000"
+      "minecraft:soul_sand_valley": "2023-07-02 00:50:14 +0000",
+      "minecraft:warped_forest": "2023-07-03 01:14:03 +0000"
     },
     "done": false
   },
@@ -2709,15 +2714,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "has_nether_bricks": "2023-07-02 22:59:09 +0000"
+      "fortress": "2023-07-02 22:46:57 +0000"
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
+  "minecraft:recipes/decorations/composter": {
     "criteria": {
-      "deflected_projectile": "2023-07-02 23:42:28 +0000"
+      "has_wood_slab": "2023-07-02 22:51:00 +0000"
     },
     "done": true
   },
@@ -2727,21 +2732,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2023-07-02 22:54:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2023-07-02 22:59:09 +0000"
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
-      "blaze_rod": "2023-07-02 23:02:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2023-07-02 22:51:00 +0000"
+      "has_nether_bricks": "2023-07-02 22:59:09 +0000"
     },
     "done": true
   },
@@ -2757,21 +2762,9 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2023-07-02 23:36:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2023-07-02 22:59:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2023-07-02 23:02:00 +0000"
     },
     "done": true
   },
@@ -2793,15 +2786,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
-      "has_red_mushroom": "2023-07-02 22:54:38 +0000"
+      "has_nether_bricks": "2023-07-02 22:59:09 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "fortress": "2023-07-02 22:46:57 +0000"
+      "blaze_rod": "2023-07-02 23:02:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-07-02 23:02:00 +0000"
     },
     "done": true
   },
@@ -2811,9 +2810,261 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/nether_brick_fence": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "has_nether_bricks": "2023-07-02 22:59:09 +0000"
+      "enchanted_item": "2023-07-02 23:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2023-07-02 23:42:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2023-07-03 00:31:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2023-07-03 00:31:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2023-07-03 00:41:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-07-03 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-07-03 00:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-07-03 01:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2023-07-03 01:17:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2023-07-03 02:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2023-07-03 02:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2023-07-03 02:16:01 +0000"
     },
     "done": true
   },

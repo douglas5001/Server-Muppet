@@ -25,6 +25,7 @@
       "minecraft:forest": "2023-07-01 00:06:53 +0000",
       "minecraft:deep_cold_ocean": "2023-07-02 16:14:43 +0000",
       "minecraft:frozen_ocean": "2023-07-01 00:18:41 +0000",
+      "minecraft:deep_frozen_ocean": "2023-07-03 01:04:37 +0000",
       "minecraft:jungle": "2023-07-02 18:50:18 +0000",
       "minecraft:ocean": "2023-07-02 18:57:19 +0000",
       "minecraft:old_growth_birch_forest": "2023-07-02 18:44:32 +0000",
@@ -2441,6 +2442,42 @@
   "minecraft:recipes/misc/black_dye": {
     "criteria": {
       "has_ink_sac": "2023-07-02 22:24:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2023-07-03 01:09:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2023-07-03 02:03:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2023-07-03 02:03:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2023-07-03 02:03:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2023-07-03 03:17:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-07-03 03:33:54 +0000"
     },
     "done": true
   },
