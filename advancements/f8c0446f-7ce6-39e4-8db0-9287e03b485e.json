@@ -309,6 +309,9 @@
       "cooked_porkchop": "2023-07-02 17:19:01 +0000",
       "cooked_mutton": "2023-07-02 17:25:17 +0000",
       "sweet_berries": "2023-07-02 22:43:25 +0000",
+      "cooked_beef": "2023-07-03 14:04:29 +0000",
+      "baked_potato": "2023-07-03 15:50:18 +0000",
+      "apple": "2023-07-03 14:15:12 +0000",
       "bread": "2023-07-02 13:30:29 +0000",
       "golden_apple": "2023-07-02 22:57:37 +0000",
       "mushroom_stew": "2023-07-02 23:02:47 +0000",
@@ -1794,12 +1797,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/fletching_table": {
-    "criteria": {
-      "has_flint": "2023-07-03 13:32:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-07-03 13:32:31 +0000"
@@ -1824,18 +1821,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2023-07-03 13:52:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_flint": "2023-07-03 13:32:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-07-03 13:32:31 +0000"
@@ -1845,12 +1830,6 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-07-03 13:32:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_flint": "2023-07-03 13:32:32 +0000"
     },
     "done": true
   },
@@ -1893,6 +1872,30 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-07-03 13:32:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2023-07-03 13:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2023-07-03 13:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2023-07-03 13:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-07-03 13:52:14 +0000"
     },
     "done": true
   },
