@@ -346,6 +346,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2023-07-02 23:00:01 +0000",
+      "minecraft:pillager": "2023-07-03 23:41:59 +0000",
       "minecraft:skeleton": "2023-07-02 13:36:15 +0000",
       "minecraft:ghast": "2023-07-02 23:20:55 +0000",
       "minecraft:spider": "2023-07-02 16:43:34 +0000",
@@ -1902,6 +1903,24 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2023-07-03 13:52:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2023-07-03 23:51:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2023-07-03 23:22:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-07-03 23:41:59 +0000"
     },
     "done": true
   },

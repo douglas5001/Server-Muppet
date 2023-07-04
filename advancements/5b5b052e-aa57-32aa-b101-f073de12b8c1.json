@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2023-06-30 23:13:25 +0000",
       "minecraft:frozen_river": "2023-06-30 23:13:43 +0000",
+      "minecraft:badlands": "2023-07-03 22:33:37 +0000",
       "minecraft:river": "2023-06-30 23:20:50 +0000",
       "minecraft:snowy_plains": "2023-06-30 23:13:34 +0000",
       "minecraft:stony_shore": "2023-06-30 23:12:59 +0000",
@@ -19,6 +20,7 @@
       "minecraft:cold_ocean": "2023-07-01 15:43:31 +0000",
       "minecraft:forest": "2023-06-30 23:19:58 +0000",
       "minecraft:frozen_ocean": "2023-07-01 15:43:34 +0000",
+      "minecraft:desert": "2023-07-03 22:35:17 +0000",
       "minecraft:deep_frozen_ocean": "2023-07-01 15:43:50 +0000",
       "minecraft:snowy_beach": "2023-07-01 15:52:41 +0000",
       "minecraft:deep_dark": "2023-07-03 02:31:44 +0000",
@@ -2685,15 +2687,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-07-03 17:26:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2023-07-03 17:38:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
+  "minecraft:recipes/decorations/grindstone": {
     "criteria": {
-      "has_pointed_dripstone": "2023-07-03 17:26:29 +0000"
+      "has_stone_slab": "2023-07-03 19:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-07-03 21:38:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-07-03 21:38:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2023-07-03 22:14:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2023-07-03 22:38:57 +0000"
     },
     "done": true
   },
