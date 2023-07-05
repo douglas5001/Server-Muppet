@@ -9,7 +9,9 @@
     "criteria": {
       "minecraft:snowy_slopes": "2023-06-30 23:13:25 +0000",
       "minecraft:frozen_river": "2023-06-30 23:13:43 +0000",
+      "minecraft:birch_forest": "2023-07-05 18:28:31 +0000",
       "minecraft:badlands": "2023-07-03 22:33:37 +0000",
+      "minecraft:dark_forest": "2023-07-05 18:28:33 +0000",
       "minecraft:river": "2023-06-30 23:20:50 +0000",
       "minecraft:snowy_plains": "2023-06-30 23:13:34 +0000",
       "minecraft:stony_shore": "2023-06-30 23:12:59 +0000",
@@ -3157,6 +3159,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-07-05 18:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-07-05 18:28:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_leggings": "2023-07-05 17:31:49 +0000"
@@ -3172,6 +3186,18 @@
   "minecraft:recipes/decorations/birch_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2023-07-05 17:57:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2023-07-05 18:00:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_carved_pumpkin": "2023-07-05 18:00:06 +0000"
     },
     "done": true
   },
