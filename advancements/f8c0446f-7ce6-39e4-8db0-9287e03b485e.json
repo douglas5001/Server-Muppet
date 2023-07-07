@@ -2433,15 +2433,39 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-07-06 21:19:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2023-07-06 21:22:08 +0000"
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
-      "enchanted_item": "2023-07-06 21:19:38 +0000"
+      "has_bamboo": "2023-07-07 01:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2023-07-07 01:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-07-07 01:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-07-07 02:36:56 +0000"
     },
     "done": true
   },
