@@ -2369,6 +2369,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:pig": "2023-07-02 21:00:55 +0000",
+      "minecraft:turtle": "2023-07-07 04:03:39 +0000",
       "minecraft:sheep": "2023-07-05 17:16:51 +0000"
     },
     "done": false
@@ -3648,6 +3649,24 @@
   "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
     "criteria": {
       "has_redstone_ore": "2023-07-06 17:59:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-07-07 04:56:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-07 05:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2023-07-07 04:56:12 +0000"
     },
     "done": true
   },
