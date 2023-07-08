@@ -2477,27 +2477,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2023-07-08 02:05:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:end/elytra": {
     "criteria": {
       "elytra": "2023-07-08 01:42:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_torch": {
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2023-07-08 01:47:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2023-07-08 02:05:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "has_shulker_shell": "2023-07-08 01:47:48 +0000"
+      "has_soul_sand": "2023-07-08 02:05:48 +0000"
     },
     "done": true
   },

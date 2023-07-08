@@ -447,6 +447,7 @@
       "minecraft:magma_cube": "2023-07-07 18:08:21 +0000",
       "minecraft:spider": "2023-07-01 16:13:17 +0000",
       "minecraft:creeper": "2023-07-02 02:09:25 +0000",
+      "minecraft:wither": "2023-07-08 15:47:38 +0000",
       "minecraft:slime": "2023-07-01 16:15:12 +0000",
       "minecraft:phantom": "2023-07-02 23:57:18 +0000",
       "minecraft:witch": "2023-07-02 00:02:22 +0000",
@@ -3958,6 +3959,48 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2023-07-08 06:09:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2023-07-08 15:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2023-07-08 15:47:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2023-07-08 15:58:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2023-07-08 15:58:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2023-07-08 17:02:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-08 17:42:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-07-08 17:42:47 +0000"
     },
     "done": true
   },

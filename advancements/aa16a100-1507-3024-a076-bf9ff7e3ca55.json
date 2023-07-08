@@ -4016,17 +4016,17 @@
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
-    "criteria": {
-      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2023-07-08 05:38:27 +0000"
-    },
-    "done": false
-  },
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:dune_armor_trim_smithing_template_smithing_trim": "2023-07-08 05:36:28 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2023-07-08 05:38:27 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
