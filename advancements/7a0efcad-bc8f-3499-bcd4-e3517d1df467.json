@@ -1356,7 +1356,8 @@
       "minecraft:spider": "2023-07-02 20:53:33 +0000",
       "minecraft:creeper": "2023-07-02 14:17:13 +0000",
       "minecraft:witch": "2023-07-06 04:17:52 +0000",
-      "minecraft:zombie": "2023-07-02 02:06:54 +0000"
+      "minecraft:zombie": "2023-07-02 02:06:54 +0000",
+      "minecraft:drowned": "2023-07-08 01:12:11 +0000"
     },
     "done": false
   },
@@ -1459,7 +1460,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:pig": "2023-07-02 16:19:31 +0000",
-      "minecraft:sheep": "2023-07-02 02:57:58 +0000"
+      "minecraft:sheep": "2023-07-02 02:57:58 +0000",
+      "minecraft:chicken": "2023-07-08 00:57:06 +0000"
     },
     "done": false
   },
@@ -2612,6 +2614,60 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2023-07-07 01:06:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-07-08 00:17:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-07-08 00:17:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-07-08 00:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-07-08 01:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2023-07-08 01:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-07-08 01:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-07-08 01:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-07-08 02:42:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-07-08 02:43:02 +0000"
     },
     "done": true
   },
