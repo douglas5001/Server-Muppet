@@ -4220,5 +4220,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2023-07-09 18:31:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
