@@ -2738,6 +2738,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2023-07-09 16:02:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2023-07-09 16:24:20 +0000"
@@ -2756,11 +2762,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/conduit": {
+  "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "has_nautilus_shell": "2023-07-09 16:02:35 +0000"
+      "minecraft:white": "2023-07-10 02:16:29 +0000"
     },
-    "done": true
+    "done": false
   },
   "DataVersion": 3465
 }

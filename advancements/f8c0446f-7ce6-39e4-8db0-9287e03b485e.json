@@ -12,7 +12,12 @@
       "minecraft:deep_ocean": "2023-07-04 01:13:31 +0000",
       "minecraft:frozen_river": "2023-07-02 17:13:37 +0000",
       "minecraft:birch_forest": "2023-07-04 01:19:23 +0000",
+      "minecraft:windswept_hills": "2023-07-10 01:52:54 +0000",
+      "minecraft:bamboo_jungle": "2023-07-10 01:53:39 +0000",
       "minecraft:beach": "2023-07-04 01:08:50 +0000",
+      "minecraft:dark_forest": "2023-07-10 01:45:08 +0000",
+      "minecraft:mangrove_swamp": "2023-07-10 01:52:22 +0000",
+      "minecraft:sparse_jungle": "2023-07-10 01:52:20 +0000",
       "minecraft:river": "2023-07-02 16:16:04 +0000",
       "minecraft:lukewarm_ocean": "2023-07-04 01:14:01 +0000",
       "minecraft:stony_shore": "2023-07-02 13:18:55 +0000",
@@ -20,14 +25,20 @@
       "minecraft:dripstone_caves": "2023-07-02 17:27:02 +0000",
       "minecraft:snowy_taiga": "2023-07-02 17:13:43 +0000",
       "minecraft:grove": "2023-07-02 13:20:51 +0000",
+      "minecraft:swamp": "2023-07-10 01:45:25 +0000",
       "minecraft:jagged_peaks": "2023-07-02 13:20:58 +0000",
+      "minecraft:cold_ocean": "2023-07-10 01:44:59 +0000",
       "minecraft:forest": "2023-07-02 13:20:52 +0000",
       "minecraft:ice_spikes": "2023-07-02 23:47:36 +0000",
       "minecraft:frozen_ocean": "2023-07-02 23:39:19 +0000",
       "minecraft:deep_frozen_ocean": "2023-07-02 23:42:21 +0000",
+      "minecraft:windswept_forest": "2023-07-10 01:45:15 +0000",
       "minecraft:ocean": "2023-07-04 01:12:19 +0000",
+      "minecraft:jungle": "2023-07-10 01:52:31 +0000",
       "minecraft:snowy_beach": "2023-07-02 23:47:31 +0000",
+      "minecraft:windswept_savanna": "2023-07-10 01:58:28 +0000",
       "minecraft:flower_forest": "2023-07-02 23:54:16 +0000",
+      "minecraft:old_growth_birch_forest": "2023-07-10 01:52:16 +0000",
       "minecraft:deep_dark": "2023-07-08 23:30:39 +0000",
       "minecraft:meadow": "2023-07-02 16:34:51 +0000",
       "minecraft:savanna": "2023-07-04 01:15:14 +0000",
@@ -360,11 +371,13 @@
       "minecraft:hoglin": "2023-07-08 21:46:33 +0000",
       "minecraft:spider": "2023-07-02 16:43:34 +0000",
       "minecraft:creeper": "2023-07-04 00:02:19 +0000",
+      "minecraft:witch": "2023-07-10 01:46:05 +0000",
       "minecraft:wither_skeleton": "2023-07-02 22:51:40 +0000",
       "minecraft:shulker": "2023-07-08 22:09:31 +0000",
       "minecraft:piglin": "2023-07-08 02:11:46 +0000",
       "minecraft:silverfish": "2023-07-04 02:10:16 +0000",
       "minecraft:enderman": "2023-07-05 20:54:55 +0000",
+      "minecraft:stray": "2023-07-10 02:17:39 +0000",
       "minecraft:zombie": "2023-07-02 13:33:45 +0000",
       "minecraft:drowned": "2023-07-02 16:40:26 +0000",
       "minecraft:zombie_villager": "2023-07-04 01:08:42 +0000"
@@ -3002,21 +3015,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lime_dye": {
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
-      "has_white_dye": "2023-07-09 03:46:34 +0000"
+      "has_coast_armor_trim_smithing_template": "2023-07-09 03:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-07-09 03:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:eye_armor_trim_smithing_template_smithing_trim": "2023-07-09 03:42:42 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/dye_blue_wool": {
     "criteria": {
       "has_needed_dye": "2023-07-09 03:45:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_brown_bed": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:48:11 +0000"
     },
     "done": true
   },
@@ -3032,12 +3051,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2023-07-09 03:45:46 +0000"
@@ -3050,33 +3063,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
-    "criteria": {
-      "has_white_dye": "2023-07-09 03:46:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_carpet": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_candle": {
     "criteria": {
       "has_blue_dye": "2023-07-09 03:45:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2023-07-09 03:06:39 +0000"
     },
     "done": true
   },
@@ -3086,21 +3075,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
     "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:57 +0000"
+      "has_needed_dye": "2023-07-09 03:45:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-07-09 03:45:46 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/pink_candle": {
     "criteria": {
       "has_pink_dye": "2023-07-09 03:46:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:34 +0000"
     },
     "done": true
   },
@@ -3122,9 +3111,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_brown_carpet": {
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
     "criteria": {
-      "has_needed_dye": "2023-07-09 03:48:11 +0000"
+      "has_needed_dye": "2023-07-09 03:46:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-09 03:46:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-09 03:46:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:46:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:46:34 +0000"
     },
     "done": true
   },
@@ -3140,9 +3153,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_blue_bed": {
+  "minecraft:recipes/building_blocks/dye_white_bed": {
     "criteria": {
-      "has_needed_dye": "2023-07-09 03:45:46 +0000"
+      "has_needed_dye": "2023-07-09 03:46:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:46:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:46:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:46:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2023-07-09 03:46:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:48:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 03:48:11 +0000"
     },
     "done": true
   },
@@ -3152,45 +3201,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2023-07-09 03:06:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_carpet": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2023-07-09 03:46:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
-    "criteria": {
-      "has_blue_dye": "2023-07-09 03:45:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/trim_with_any_armor_pattern": {
-    "criteria": {
-      "armor_trimmed_minecraft:eye_armor_trim_smithing_template_smithing_trim": "2023-07-09 03:42:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_brown_wool": {
     "criteria": {
       "has_needed_dye": "2023-07-09 03:48:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_candle": {
+  "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
-      "has_light_blue_dye": "2023-07-09 03:46:57 +0000"
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-07-10 01:21:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2023-07-10 02:04:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2023-07-10 02:04:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2023-07-10 02:04:25 +0000"
     },
     "done": true
   },
