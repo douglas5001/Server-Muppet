@@ -3303,5 +3303,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-07-11 01:01:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-07-11 02:02:03 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
