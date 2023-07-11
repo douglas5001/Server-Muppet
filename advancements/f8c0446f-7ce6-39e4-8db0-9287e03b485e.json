@@ -3291,5 +3291,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-07-10 21:13:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-07-10 21:58:22 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
