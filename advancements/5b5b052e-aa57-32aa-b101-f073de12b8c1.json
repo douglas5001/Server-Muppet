@@ -4340,5 +4340,161 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-11 16:44:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-11 16:44:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-11 16:45:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-07-11 16:46:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_purple_dye": "2023-07-11 16:47:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2023-07-11 16:47:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_magenta_dye": "2023-07-11 16:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2023-07-11 16:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2023-07-11 16:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-11 16:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_orange_dye": "2023-07-11 16:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-11 16:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-11 16:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-07-11 16:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-07-11 16:52:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-07-11 16:52:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2023-07-11 17:50:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2023-07-11 17:50:33 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -3327,5 +3327,35 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2023-07-11 14:06:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2023-07-11 14:12:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-07-11 14:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-07-11 14:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2023-07-11 14:19:58 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
